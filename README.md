@@ -13,16 +13,22 @@ I design <b>serverless data platforms</b> that turn messy business data into rel
 
 ---
 
-### 🚀 About me
+### 👋 About me
 
-- ☁️ **Cloud & Data Engineer** with 6+ years turning operational and financial data into systems that run themselves.
-- 🏗️ I think in **architecture**: separating compute, storage and presentation; choosing serverless over servers; optimizing for cost (some of my systems run on **~$0 infrastructure**).
-- 🧩 I build **end-to-end**: ETL in Python, analytical warehouses (DuckDB), object storage (Cloudflare R2), serverless frontends (React + DuckDB-WASM), CI/CD (GitHub Actions).
-- 🤖 I work hands-on with **AI / LLMs and prompt engineering** — building AI-assisted tools and automating workflows with them.
-- 🎓 Currently studying **AWS** and **Systems Engineering**, on the path to **Cloud Solutions Architect**.
-- 🌎 Open to **remote roles** (Cloud / Data Engineering) and consulting.
+Hi! I'm **Juan**, a Cloud & Data Engineer from Bogotá 🇨🇴. I love taking messy, manual, Excel-driven processes and turning them into **cloud systems that run themselves** — quietly, reliably, and on almost no budget.
 
-> 🇪🇸 Ingeniero Cloud & Datos. Diseño plataformas de datos serverless de bajo costo, de punta a punta. En camino a Arquitecto de Soluciones Cloud (estudiando AWS + Ing. de Sistemas).
+What that looks like in practice:
+
+- ☁️ I think in **architecture** — separating compute, storage and presentation, choosing serverless over servers, and squeezing cost down (some of my systems run on **~$0 infrastructure**).
+- 🧩 I build **end-to-end**: ETL in Python → analytical warehouses (DuckDB) → object storage (Cloudflare R2) → serverless dashboards (React + DuckDB-WASM) → CI/CD (GitHub Actions).
+- 🤖 I work hands-on with **AI / LLMs and prompt engineering** to build assistive tools and automate work.
+- 🎓 Right now I'm leveling up on **AWS** and **Systems Engineering**, heading toward **Cloud Solutions Architect**.
+
+**Fun facts:** I shipped a production data platform solo · I'm also building a game from scratch in Roblox 🎮 · I'd rather automate a task once than do it twice.
+
+> 🇪🇸 ¡Hola! Soy Juan, ingeniero Cloud & Datos. Convierto procesos manuales y caóticos en sistemas cloud que se operan solos, de bajo costo y de punta a punta. En camino a Arquitecto de Soluciones Cloud.
+
+🌎 **Open to remote roles** (Cloud / Data Engineering) and consulting.
 
 ---
 
