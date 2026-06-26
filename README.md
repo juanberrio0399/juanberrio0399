@@ -83,10 +83,6 @@ Production ETL (~4,100 lines, layered `readers → transforms → writers`) that
 Web application aimed at CFOs for fiscal/compliance intelligence, deployed on **Cloudflare Pages**.
 `JavaScript` · `Vite` · `Cloudflare Pages`
 
-#### 🤖 Oportunia — AI-assisted freelance prospecting
-A personal system that finds and qualifies freelance opportunities using AI.
-`Python` · `AI / LLM`
-
 #### ⚙️ Logistics Portal Automation (RPA) — Playwright bot
 Bot that uploads/downloads documents to an e-commerce logistics portal, matching records by business rules — eliminating repetitive manual work.
 `Python` · `Playwright`
