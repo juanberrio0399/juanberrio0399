@@ -6,6 +6,7 @@ I design <b>serverless data platforms</b> that turn messy business data into rel
 </p>
 
 <p align="center">
+  <a href="https://juanberrio0399.github.io"><img src="https://img.shields.io/badge/🌐%20Portfolio-juanberrio0399.github.io-22d3ee?style=for-the-badge" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/juanberrioo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:juandyb99@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://img.shields.io/badge/Bogot%C3%A1,%20Colombia-Remote%20·%20GMT--5-2ea44f?style=for-the-badge" alt="Location"/>
