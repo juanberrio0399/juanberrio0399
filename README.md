@@ -95,6 +95,8 @@ A cooperative survival game built from scratch by phases — full client-server 
 
 ### 📈 Currently learning
 
+✅ Completed **AWS Cloud Practitioner Essentials** (AWS Training & Certification · Jun 2026) — preparing for the Cloud Practitioner exam.
+
 `AWS (Cloud Practitioner → Solutions Architect)` · `Systems Engineering (Uniminuto)` · `English → B2` · `dbt`
 
 ---
