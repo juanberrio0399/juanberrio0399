@@ -22,6 +22,7 @@ What that looks like in practice:
 
 - ☁️ I think in **architecture** — separating compute, storage and presentation, choosing serverless over servers, and squeezing cost down (some of my systems run on **~$0 infrastructure**).
 - 🧩 I build **end-to-end**: ETL in Python → analytical warehouses (DuckDB) → object storage (Cloudflare R2) → serverless dashboards (React + DuckDB-WASM) → CI/CD (GitHub Actions).
+- 📊 Today my pipelines process **25M+ records** (growing ~2M/month).
 - 🤖 I work hands-on with **AI / LLMs and prompt engineering** to build assistive tools and automate work.
 - 🎓 Right now I'm leveling up on **AWS** and **Systems Engineering**, heading toward **Cloud Solutions Architect**.
 
