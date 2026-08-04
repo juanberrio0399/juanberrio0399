@@ -12,6 +12,8 @@ I design <b>serverless data platforms</b> that turn messy business data into rel
   <img src="https://img.shields.io/badge/Bogot%C3%A1,%20Colombia-Remote%20·%20GMT--5-2ea44f?style=for-the-badge" alt="Location"/>
 </p>
 
+<p align="center"><b>🌐 English</b> · <a href="README.es.md">Español</a></p>
+
 ---
 
 ### 👋 About me
@@ -27,8 +29,6 @@ What that looks like in practice:
 - 🎓 Right now I'm leveling up on **AWS** and **Systems Engineering**, heading toward **Cloud Solutions Architect**.
 
 **Fun facts:** I shipped a production data platform solo · I'm also building a game from scratch in Roblox 🎮 · I'd rather automate a task once than do it twice.
-
-> 🇪🇸 ¡Hola! Soy Juan, ingeniero Cloud & Datos. Convierto procesos manuales y caóticos en sistemas cloud que se operan solos, de bajo costo y de punta a punta. En camino a Arquitecto de Soluciones Cloud.
 
 🌎 **Open to remote roles** (Cloud / Data Engineering) and consulting.
 
