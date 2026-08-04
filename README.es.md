@@ -18,7 +18,7 @@ Diseño <b>plataformas de datos serverless</b> que convierten datos de negocio d
 
 ### 👋 Sobre mí
 
-¡Hola! Soy **Juan**, ingeniero Cloud &amp; Datos de Bogotá 🇨🇴. Me gusta tomar procesos manuales, caóticos y basados en Excel y convertirlos en **sistemas cloud que se operan solos** — de forma silenciosa, confiable y con muy poco presupuesto.
+¡Hola! Soy **Juan**, **Ingeniero de Datos** de Bogotá 🇨🇴 con 6+ años en ETL, modelado dimensional y warehouses analíticos. Me gusta convertir datos manuales y caóticos (de Excel) en **sistemas confiables que se operan solos** — y llevarlos a la nube, a casi cero costo.
 
 Cómo se ve eso en la práctica:
 

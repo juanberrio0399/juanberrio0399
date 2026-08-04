@@ -18,7 +18,7 @@ I design <b>serverless data platforms</b> that turn messy business data into rel
 
 ### 👋 About me
 
-Hi! I'm **Juan**, a Cloud & Data Engineer from Bogotá 🇨🇴. I love taking messy, manual, Excel-driven processes and turning them into **cloud systems that run themselves** — quietly, reliably, and on almost no budget.
+Hi! I'm **Juan**, a **Data Engineer** from Bogotá 🇨🇴 with 6+ years in ETL, dimensional modeling and analytical warehouses. I love turning messy, manual, Excel-driven data into **reliable systems that run themselves** — and bringing them to the cloud, at almost no cost.
 
 What that looks like in practice:
 
