@@ -24,7 +24,7 @@ Cómo se ve eso en la práctica:
 
 - ☁️ Pienso en **arquitectura** — separo cómputo, almacenamiento y presentación, elijo serverless sobre servidores y bajo el costo al mínimo (algunos de mis sistemas corren con **~$0 de infraestructura**).
 - 🧩 Construyo **de punta a punta**: ETL en Python → warehouses analíticos (DuckDB) → almacenamiento de objetos (Cloudflare R2) → dashboards serverless (React + DuckDB-WASM) → CI/CD (GitHub Actions).
-- 📊 Hoy mis pipelines procesan **más de 25M de registros** (creciendo ~2M/mes).
+- 📊 Hoy mis pipelines procesan **más de 30M de registros** (creciendo ~2M/mes).
 - 🤖 Trabajo directamente con **IA / LLMs y prompt engineering** para construir herramientas asistidas y automatizar trabajo.
 - 🎓 Actualmente subo de nivel en **AWS** e **Ingeniería de Sistemas**, en camino a **Arquitecto de Soluciones Cloud**.
 
