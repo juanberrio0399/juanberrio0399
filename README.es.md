@@ -1,117 +1,117 @@
-<h1 align="center">Hola, soy Juan Berrio 👋</h1>
-<h3 align="center">Cloud &amp; Data Engineer · en camino a Cloud Architect ☁️</h3>
-
-<p align="center">
-Diseño <b>plataformas de datos serverless</b> que convierten datos de negocio desordenados en sistemas de decisión confiables y de bajo costo — desde pipelines ETL hasta dashboards cloud que se actualizan solos.
-</p>
-
-<p align="center">
-  <a href="https://juanberrio0399.github.io"><img src="https://img.shields.io/badge/🌐%20Portafolio-juanberrio0399.github.io-22d3ee?style=for-the-badge" alt="Portafolio"/></a>
-  <a href="https://www.linkedin.com/in/juanberrioo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:juandyb99@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Bogot%C3%A1,%20Colombia-Remoto%20·%20GMT--5-2ea44f?style=for-the-badge" alt="Ubicación"/>
-</p>
-
-<p align="center"><a href="README.md">English</a> · <b>🌐 Español</b></p>
+<p align="center"><img src="docs/banner.es.svg" alt="Juan Berrio — Cloud &amp; Data Engineer" width="100%"></p>
+<p align="center"><a href="README.md">English</a> · <b>Español</b></p>
+<p><b>Qué hago:</b> soy ingeniero de datos en Bogotá, con más de 6 años en ETL, warehouses analíticos y BI. Los pipelines que tengo en producción manejan más de 36M de registros que salen de más de 13K archivos Excel.</p>
+<p><b>Cómo trabajo:</b> tomo un proceso que la gente hace a mano en Excel, lo vuelvo un pipeline en Python que escribe Parquet y sirvo el resultado desde la nube por casi $0.</p>
+<p><a href="https://juanberrio0399.github.io">Portafolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remoto (GMT-5)</p>
 
 ---
 
-### 👋 Sobre mí
+## Sobre mí
 
-¡Hola! Soy **Juan**, **Ingeniero de Datos** de Bogotá 🇨🇴 con 6+ años en ETL, modelado dimensional y warehouses analíticos. Me gusta convertir datos manuales y caóticos (de Excel) en **sistemas confiables que se operan solos** — y llevarlos a la nube, a casi cero costo.
+Casi todo lo que he construido empezó como la hoja de cálculo de alguien. Un equipo descarga archivos todos los días, copia columnas, cruza dos reportes a mano y espera que no se le haya escapado nada. Yo convierto eso en un pipeline que lee los archivos, los valida y guarda un histórico limpio, y encima le pongo un tablero que se actualiza solo.
 
-Cómo se ve eso en la práctica:
+Me gusta hacerlo con la menor infraestructura posible: el cómputo donde ya están los datos, el almacenamiento en buckets de objetos y las consultas corriendo en el navegador. Algunos de estos sistemas no cuestan nada de hosting.
 
-- ☁️ Pienso en **arquitectura** — separo cómputo, almacenamiento y presentación, elijo serverless sobre servidores y bajo el costo al mínimo (algunos de mis sistemas corren con **~$0 de infraestructura**).
-- 🧩 Construyo **de punta a punta**: ETL en Python → warehouses analíticos (DuckDB) → almacenamiento de objetos (Cloudflare R2) → dashboards serverless (React + DuckDB-WASM) → CI/CD (GitHub Actions).
-- 📊 Hoy mis pipelines procesan **más de 30M de registros** (creciendo ~2M/mes).
-- 🤖 Trabajo directamente con **IA / LLMs y prompt engineering** para construir herramientas asistidas y automatizar trabajo.
-- 🎓 Actualmente subo de nivel en **AWS** e **Ingeniería de Sistemas**, en camino a **Arquitecto de Soluciones Cloud**.
+También trabajo con LLMs todos los días, tanto para construir herramientas (uno de mis repos públicos es un asistente RAG) como para automatizar mi propio trabajo. Ahora estoy estudiando AWS e Ingeniería de Sistemas, con la mira puesta en arquitectura de soluciones cloud.
 
-**Datos curiosos:** desplegué una plataforma de datos en producción yo solo · también construyo un juego desde cero en Roblox 🎮 · prefiero automatizar una tarea una vez antes que hacerla dos veces.
+Estoy abierto a roles remotos de Data / Cloud Engineering.
 
-🌎 **Abierto a roles remotos** (Cloud / Data Engineering) y consultoría.
+## Cómo funciona un proyecto típico mío
 
----
+Esta es la forma de DataForge, la plataforma que manejo en el trabajo. El cliente y los datos son privados; la arquitectura no.
 
-### 🛠️ Stack técnico
+```mermaid
+flowchart LR
+  XL["Archivos Excel del negocio<br/>miles, se actualizan a diario"] --> ETL["ETL en Python<br/>readers, transforms, writers"]
+  ETL --> PQ[("Parquet + DuckDB<br/>warehouse")]
+  PQ --> R2[("Cloudflare R2")]
+  SRC["Otras fuentes"] --> GA["GitHub Actions<br/>jobs de ingesta"]
+  GA --> R2
+  R2 --> DASH["React + DuckDB-WASM<br/>el SQL corre en el navegador"]
 
-**Cloud & DevOps**
+```
 
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-(en%20formación)-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Serverless](https://img.shields.io/badge/Serverless-FD5750?style=flat-square&logo=serverless&logoColor=white)
+Solo se reprocesan los archivos que cambiaron, así que una corrida toma minutos y no reconstruye años de histórico. El tablero no tiene backend: Cloudflare Pages le entrega los Parquet al navegador y DuckDB-WASM los consulta ahí mismo.
 
-**Data Engineering**
+## Proyectos destacados
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Parquet](https://img.shields.io/badge/Apache%20Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+Casi todo mi trabajo es privado porque corre sobre datos de una empresa. Los write-ups con arquitectura y resultados están en mi **[sitio de portafolio](https://juanberrio0399.github.io)**.
 
-**BI, Web & Automatización**
+### DataForge Cloud: plataforma de analítica serverless
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+*En producción.* Un worker ETL local publica Parquet en Cloudflare R2 y un tablero en Cloudflare Pages (React + DuckDB-WASM) lo consulta directo en el navegador. Sin backend y sin base de datos que mantener, con ~$0 de infraestructura. Un segundo camino, todo en la nube, ingiere otras fuentes con GitHub Actions.
 
-**IA / LLM**
+`Cloudflare R2/Pages` · `React` · `DuckDB-WASM` · `GitHub Actions` · `Power Automate`
 
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-5A4FCF?style=flat-square)
-![LLM Integration](https://img.shields.io/badge/LLM%20Integration-1A7F64?style=flat-square)
-![AI Automation](https://img.shields.io/badge/AI%20Automation-FF6F00?style=flat-square)
+→ [Ver el caso de estudio](https://juanberrio0399.github.io/case-study-dataforge.html)
 
----
+### DataForge: pipeline ETL y warehouse analítico
 
-### 📂 Proyectos destacados
+*En producción.* ETL en Python por capas (`readers → transforms → writers`) que ingiere de forma incremental los Excel del negocio a Parquet y expone un warehouse en DuckDB. Concilia impuestos de aduana guía por guía cruzando 5 fuentes. Se corre con un clic y antes de arrancar revisa que el equipo esté listo.
 
-> La mayoría de repos son privados (trabajo de cliente). Los write-ups completos con arquitectura y resultados están en mi **[📁 portafolio](https://juanberrio0399.github.io)**.
-
-#### ☁️ DataForge Cloud — Plataforma de analítica serverless
-Arquitectura cloud híbrida: un worker ETL local publica en **Cloudflare R2**, y un **dashboard serverless** (Cloudflare Pages + React + **DuckDB-WASM**) consulta Parquet *directo en el navegador* — sin backend, sin base de datos que mantener, ~$0 de infra. Un camino paralelo 100% nube (Power Automate → R2 → GitHub Actions) ingiere otras fuentes.
-`Cloudflare R2/Pages` · `React + DuckDB-WASM` · `GitHub Actions` · `Power Automate`
-→ **[Ver el case study](https://juanberrio0399.github.io/case-study-dataforge.html#caso)**
-
-#### 🦆 DataForge — Pipeline ETL y warehouse analítico
-ETL en producción (~4.100 líneas, arquitectura `readers → transforms → writers`) que ingiere Excel de negocio de forma incremental a **Parquet** y expone un warehouse **DuckDB**. Conciliación tributaria guía a guía sobre 5 fuentes. Corre solo 3×/día.
 `Python` · `Pandas` · `DuckDB` · `Parquet`
 
-#### 🛡️ UGPP Shield Pro — Web app cloud para líderes financieros
-Aplicación web orientada a CFOs para inteligencia fiscal y de cumplimiento: el cruce de nómina contra la seguridad social corre **en el navegador** (ningún dato sale del equipo). Hecha para **Cloudflare Pages**; lanzamiento pendiente.
+### UGPP Shield Pro: app web de cumplimiento para líderes financieros
+
+*Lista, sin lanzar.* Una app web para CFOs que cruza la nómina contra la seguridad social dentro del navegador, así que los datos no salen del equipo. Hecha para Cloudflare Pages; el lanzamiento está pendiente.
+
 `JavaScript` · `Vite` · `Cloudflare Pages`
 
-#### ⚙️ Automatización de portal logístico (RPA) — Bot Playwright
-Bot que sube/descarga documentos a un portal logístico de e-commerce, emparejando registros por reglas de negocio — elimina trabajo manual repetitivo.
+### Automatización de portal logístico (RPA)
+
+*En uso.* Un bot en Playwright que sube y descarga documentos en un portal logístico de e-commerce, emparejando registros por reglas de negocio. Confirma cada carga con la respuesta de red del propio portal, no da por hecho que funcionó.
+
 `Python` · `Playwright`
 
-#### 🤖 [Asistente RAG serverless](https://github.com/juanberrio0399/serverless-rag-assistant) — repo público
-Preguntas sobre tus propios documentos con **Workers AI + Vectorize** en Cloudflare: recuperación, citas y demo en vivo en el edge.
+### [Serverless RAG Assistant](https://github.com/juanberrio0399/serverless-rag-assistant)
+
+*Público, en vivo.* Preguntas sobre tus propios documentos. Un solo Worker de Cloudflare con Workers AI, Vectorize, D1 y Workflows: recuperación con reranking, citas, defensas contra prompt injection y demo en vivo.
+
 `Cloudflare Workers` · `Workers AI` · `Vectorize` · `D1`
 
-#### 🐳 [Dockerized Data Tool](https://github.com/juanberrio0399/dockerized-data-tool) — repo público
-Una CLI pequeña de CSV publicada con una cadena de suministro de contenedores endurecida: imágenes multiplataforma en runners nativos, bloqueo con Trivy, SBOM y procedencia SLSA — lo que descargas es exactamente lo que se escaneó.
+### [Dockerized Data Tool](https://github.com/juanberrio0399/dockerized-data-tool)
+
+*Público.* Una CLI pequeña de CSV publicada con una cadena de suministro de contenedores endurecida: imágenes para dos arquitecturas construidas en runners nativos, bloqueo con Trivy, SBOM y procedencia SLSA. Lo que descargas es exactamente lo que se escaneó.
+
 `Docker` · `GitHub Actions` · `Trivy` · `SLSA`
 
-#### 🎮 Hearthwood — Juego de Roblox (side project)
-Juego cooperativo de supervivencia construido desde cero por fases — arquitectura cliente-servidor en ~23 servicios. Demuestra diseño de sistemas más allá de datos.
-`Luau` · `Roblox`
+### Hearthwood: un juego de Roblox
+
+*Proyecto personal, en desarrollo.* Un juego de supervivencia que estoy construyendo desde cero y por fases, con diseño cliente-servidor: 48 servicios en el servidor y 19 controladores en el cliente. Es donde practico diseño de sistemas por fuera de los datos.
+
+`Luau` · `Roblox` · `Rojo`
+
+## Dónde seguir mirando
+
+| Dónde | Qué vas a encontrar |
+|---|---|
+| [juanberrio0399.github.io](https://juanberrio0399.github.io) | Portafolio, hoja de vida (ES/EN), el caso de estudio de DataForge y un playground de SQL que corre DuckDB-WASM en tu navegador ([código](https://github.com/juanberrio0399/juanberrio0399.github.io)) |
+| [serverless-rag-assistant](https://github.com/juanberrio0399/serverless-rag-assistant) | IA en el borde de Cloudflare, con pruebas que corren dentro del runtime de Workers |
+| [dockerized-data-tool](https://github.com/juanberrio0399/dockerized-data-tool) | Cadena de suministro de contenedores: escaneo, SBOM, procedencia, dos plataformas |
+
+## Stack técnico
+
+**Datos:** Python (Pandas) · SQL · DuckDB · Parquet · ETL e ingesta incremental · modelado dimensional<br>
+**Cloud y DevOps:** Cloudflare (Workers, R2, Pages, D1, Vectorize) · GitHub Actions · Terraform · Docker · Git · AWS (aprendiendo)<br>
+**BI y web:** Power BI · Power Query · React · TypeScript · DuckDB-WASM<br>
+**Automatización e IA:** Playwright (RPA) · Power Automate · integración de LLMs · RAG · prompt engineering
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Parquet](https://img.shields.io/badge/Apache%20Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+## Qué estoy aprendiendo
+
+Terminé **AWS Cloud Practitioner Essentials** (AWS Training & Certification, junio de 2026) y estoy preparando el examen de Cloud Practitioner. Lo que sigue: AWS Solutions Architect, dbt y llevar el inglés a B2. También estudio Ingeniería de Sistemas en la Corporación Universitaria Americana.
 
 ---
 
-### 📈 Aprendiendo ahora
-
-✅ Completé **AWS Cloud Practitioner Essentials** (AWS Training & Certification · jun. 2026) — preparando el examen de certificación Cloud Practitioner.
-
-`AWS (Cloud Practitioner → Solutions Architect)` · `Ingeniería de Sistemas (Corporación Universitaria Americana)` · `Inglés → B2` · `dbt`
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juanberrio0399&show_icons=true&count_private=true&hide_border=true&theme=default" alt="GitHub stats" height="160"/>
-</p>
-
-<p align="center"><i>📫 Construyamos algo que escale — <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a></i></p>
+Juan Berrio · [juandyb99@gmail.com](mailto:juandyb99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/juanberrioo)
