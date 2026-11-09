@@ -69,24 +69,32 @@ What that looks like in practice:
 
 ### 📂 Featured projects
 
-> Most repos are private (client work). Full write-ups with architecture & results live in my **[📁 portfolio](https://github.com/juanberrio0399/portfolio)**.
+> Most repos are private (client work). Full write-ups with architecture & results live on my **[🌐 portfolio site](https://juanberrio0399.github.io)**.
 
 #### ☁️ DataForge Cloud — Serverless analytics platform
 Hybrid cloud architecture: a local ETL worker publishes to **Cloudflare R2**, and a **serverless dashboard** (Cloudflare Pages + React + **DuckDB-WASM**) queries Parquet *directly in the browser* — no backend, no database to maintain, ~$0 infra. A parallel 100%-cloud path (Power Automate → R2 → GitHub Actions) ingests other sources.
 `Cloudflare R2/Pages` · `React + DuckDB-WASM` · `GitHub Actions` · `Power Automate`
-→ **[Read the case study](https://github.com/juanberrio0399/portfolio/blob/main/case-studies/01-dataforge-customs-reconciliation_EN.md)**
+→ **[Read the case study](https://juanberrio0399.github.io/case-study-dataforge.html)**
 
 #### 🦆 DataForge — ETL pipeline & analytical warehouse
-Production ETL (~4,100 lines, layered `readers → transforms → writers`) that incrementally ingests business Excel into **Parquet** and exposes a **DuckDB** warehouse. Package-level customs tax reconciliation across 5 sources. Runs unattended 3×/day.
+Production ETL (~4,100 lines, layered `readers → transforms → writers`) that incrementally ingests business Excel into **Parquet** and exposes a **DuckDB** warehouse. Package-level customs tax reconciliation across 5 sources. One-click run that checks the machine first; alerts when any dataset goes stale.
 `Python` · `Pandas` · `DuckDB` · `Parquet`
 
 #### 🛡️ UGPP Shield Pro — Cloud web app for finance leaders
-Web application aimed at CFOs for fiscal/compliance intelligence, deployed on **Cloudflare Pages**.
+Web application aimed at CFOs for fiscal/compliance intelligence: payroll vs. social-security cross-checks run **in the browser** (no data leaves the device). Built for **Cloudflare Pages**; launch pending.
 `JavaScript` · `Vite` · `Cloudflare Pages`
 
 #### ⚙️ Logistics Portal Automation (RPA) — Playwright bot
 Bot that uploads/downloads documents to an e-commerce logistics portal, matching records by business rules — eliminating repetitive manual work.
 `Python` · `Playwright`
+
+#### 🤖 [Serverless RAG Assistant](https://github.com/juanberrio0399/serverless-rag-assistant) — public repo
+Ask questions over your own documents with **Workers AI + Vectorize** on Cloudflare: retrieval, citations and a live demo on the edge.
+`Cloudflare Workers` · `Workers AI` · `Vectorize` · `D1`
+
+#### 🐳 [Dockerized Data Tool](https://github.com/juanberrio0399/dockerized-data-tool) — public repo
+A small CSV CLI shipped through a hardened container supply chain: multi-arch images on native runners, Trivy gate, SBOM and SLSA provenance — what you pull is exactly what was scanned.
+`Docker` · `GitHub Actions` · `Trivy` · `SLSA`
 
 #### 🎮 Hearthwood — Roblox game (side project)
 A cooperative survival game built from scratch by phases — full client-server architecture across ~23 services. Shows systems design beyond data.
