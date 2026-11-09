@@ -1,8 +1,8 @@
 <p align="center"><img src="docs/banner.svg" alt="Juan Berrio — Cloud &amp; Data Engineer" width="100%"></p>
 <p align="center"><b>English</b> · <a href="README.es.md">Español</a></p>
-<b>What I do:</b> I'm a data engineer in Bogotá with 6+ years in ETL, analytical warehouses and BI. My pipelines in production handle 36M+ records from 13K+ Excel files.<br>
-<b>How I work:</b> I take a process people run by hand in Excel, turn it into a Python pipeline that writes Parquet, and serve the result from the cloud for close to $0.<br>
-<a href="https://juanberrio0399.github.io">Portfolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remote (GMT-5)
+<p><b>What I do:</b> I'm a data engineer in Bogotá with 6+ years in ETL, analytical warehouses and BI. My pipelines in production handle 36M+ records from 13K+ Excel files.</p>
+<p><b>How I work:</b> I take a process people run by hand in Excel, turn it into a Python pipeline that writes Parquet, and serve the result from the cloud for close to $0.</p>
+<p><a href="https://juanberrio0399.github.io">Portfolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remote (GMT-5)</p>
 
 ---
 

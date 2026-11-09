@@ -1,8 +1,8 @@
 <p align="center"><img src="docs/banner.es.svg" alt="Juan Berrio — Cloud &amp; Data Engineer" width="100%"></p>
 <p align="center"><a href="README.md">English</a> · <b>Español</b></p>
-<b>Qué hago:</b> soy ingeniero de datos en Bogotá, con más de 6 años en ETL, warehouses analíticos y BI. Los pipelines que tengo en producción manejan más de 36M de registros que salen de más de 13K archivos Excel.<br>
-<b>Cómo trabajo:</b> tomo un proceso que la gente hace a mano en Excel, lo vuelvo un pipeline en Python que escribe Parquet y sirvo el resultado desde la nube por casi $0.<br>
-<a href="https://juanberrio0399.github.io">Portafolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remoto (GMT-5)
+<p><b>Qué hago:</b> soy ingeniero de datos en Bogotá, con más de 6 años en ETL, warehouses analíticos y BI. Los pipelines que tengo en producción manejan más de 36M de registros que salen de más de 13K archivos Excel.</p>
+<p><b>Cómo trabajo:</b> tomo un proceso que la gente hace a mano en Excel, lo vuelvo un pipeline en Python que escribe Parquet y sirvo el resultado desde la nube por casi $0.</p>
+<p><a href="https://juanberrio0399.github.io">Portafolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remoto (GMT-5)</p>
 
 ---
 
