@@ -69,24 +69,32 @@ Cómo se ve eso en la práctica:
 
 ### 📂 Proyectos destacados
 
-> La mayoría de repos son privados (trabajo de cliente). Los write-ups completos con arquitectura y resultados están en mi **[📁 portafolio](https://github.com/juanberrio0399/portfolio)**.
+> La mayoría de repos son privados (trabajo de cliente). Los write-ups completos con arquitectura y resultados están en mi **[📁 portafolio](https://juanberrio0399.github.io)**.
 
 #### ☁️ DataForge Cloud — Plataforma de analítica serverless
 Arquitectura cloud híbrida: un worker ETL local publica en **Cloudflare R2**, y un **dashboard serverless** (Cloudflare Pages + React + **DuckDB-WASM**) consulta Parquet *directo en el navegador* — sin backend, sin base de datos que mantener, ~$0 de infra. Un camino paralelo 100% nube (Power Automate → R2 → GitHub Actions) ingiere otras fuentes.
 `Cloudflare R2/Pages` · `React + DuckDB-WASM` · `GitHub Actions` · `Power Automate`
-→ **[Ver el case study](https://github.com/juanberrio0399/portfolio/blob/main/case-studies/01-dataforge-customs-reconciliation_ES.md)**
+→ **[Ver el case study](https://juanberrio0399.github.io/case-study-dataforge.html#caso)**
 
 #### 🦆 DataForge — Pipeline ETL y warehouse analítico
 ETL en producción (~4.100 líneas, arquitectura `readers → transforms → writers`) que ingiere Excel de negocio de forma incremental a **Parquet** y expone un warehouse **DuckDB**. Conciliación tributaria guía a guía sobre 5 fuentes. Corre solo 3×/día.
 `Python` · `Pandas` · `DuckDB` · `Parquet`
 
 #### 🛡️ UGPP Shield Pro — Web app cloud para líderes financieros
-Aplicación web orientada a CFOs para inteligencia fiscal y de cumplimiento, desplegada en **Cloudflare Pages**.
+Aplicación web orientada a CFOs para inteligencia fiscal y de cumplimiento: el cruce de nómina contra la seguridad social corre **en el navegador** (ningún dato sale del equipo). Hecha para **Cloudflare Pages**; lanzamiento pendiente.
 `JavaScript` · `Vite` · `Cloudflare Pages`
 
 #### ⚙️ Automatización de portal logístico (RPA) — Bot Playwright
 Bot que sube/descarga documentos a un portal logístico de e-commerce, emparejando registros por reglas de negocio — elimina trabajo manual repetitivo.
 `Python` · `Playwright`
+
+#### 🤖 [Asistente RAG serverless](https://github.com/juanberrio0399/serverless-rag-assistant) — repo público
+Preguntas sobre tus propios documentos con **Workers AI + Vectorize** en Cloudflare: recuperación, citas y demo en vivo en el edge.
+`Cloudflare Workers` · `Workers AI` · `Vectorize` · `D1`
+
+#### 🐳 [Dockerized Data Tool](https://github.com/juanberrio0399/dockerized-data-tool) — repo público
+Una CLI pequeña de CSV publicada con una cadena de suministro de contenedores endurecida: imágenes multiplataforma en runners nativos, bloqueo con Trivy, SBOM y procedencia SLSA — lo que descargas es exactamente lo que se escaneó.
+`Docker` · `GitHub Actions` · `Trivy` · `SLSA`
 
 #### 🎮 Hearthwood — Juego de Roblox (side project)
 Juego cooperativo de supervivencia construido desde cero por fases — arquitectura cliente-servidor en ~23 servicios. Demuestra diseño de sistemas más allá de datos.
