@@ -20,6 +20,8 @@ I'm open to remote Data / Cloud Engineering roles.
 
 This is the shape of DataForge, the platform I run at work. The client and the data are private; the architecture isn't.
 
+<p align="center"><img src="docs/flow.svg" alt="Animated overview of the flow" width="100%"></p>
+
 ```mermaid
 flowchart LR
   XL["Business Excel files<br/>thousands, updated daily"] --> ETL["Python ETL<br/>readers, transforms, writers"]
