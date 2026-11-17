@@ -8,7 +8,7 @@
 
 ## About me
 
-<img src="docs/wolf.svg" width="140" alt="" align="right">
+<img src="docs/wolf-float.webp" width="140" alt="" align="right">
 
 Most of what I've built started as somebody's spreadsheet. A team downloads files every day, copies columns, crosses two reports by hand and hopes nothing was missed. I turn that into a pipeline that reads the files, checks them and keeps a clean history, and then I put a dashboard on top that updates itself.
 

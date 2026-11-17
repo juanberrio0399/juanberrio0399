@@ -8,7 +8,7 @@
 
 ## Sobre mí
 
-<img src="docs/wolf.svg" width="140" alt="" align="right">
+<img src="docs/wolf-float.webp" width="140" alt="" align="right">
 
 Casi todo lo que he construido empezó como la hoja de cálculo de alguien. Un equipo descarga archivos todos los días, copia columnas, cruza dos reportes a mano y espera que no se le haya escapado nada. Yo convierto eso en un pipeline que lee los archivos, los valida y guarda un histórico limpio, y encima le pongo un tablero que se actualiza solo.
 
