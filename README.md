@@ -8,6 +8,8 @@
 
 ## About me
 
+<img src="docs/wolf-float.webp" width="140" alt="" align="right">
+
 Most of what I've built started as somebody's spreadsheet. A team downloads files every day, copies columns, crosses two reports by hand and hopes nothing was missed. I turn that into a pipeline that reads the files, checks them and keeps a clean history, and then I put a dashboard on top that updates itself.
 
 I like doing it with as little infrastructure as possible: compute where the data already is, storage in object buckets, and queries that run in the browser. Some of these systems cost nothing to host.
@@ -116,4 +118,4 @@ I finished **AWS Cloud Practitioner Essentials** (AWS Training & Certification, 
 
 ---
 
-Juan Berrio · [juandyb99@gmail.com](mailto:juandyb99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/juanberrioo)
+<img src="docs/wolf.webp" width="28" height="28" alt="" align="absmiddle"> Juan Berrio · [juandyb99@gmail.com](mailto:juandyb99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/juanberrioo)

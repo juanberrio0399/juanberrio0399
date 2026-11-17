@@ -8,6 +8,8 @@
 
 ## Sobre mí
 
+<img src="docs/wolf-float.webp" width="140" alt="" align="right">
+
 Casi todo lo que he construido empezó como la hoja de cálculo de alguien. Un equipo descarga archivos todos los días, copia columnas, cruza dos reportes a mano y espera que no se le haya escapado nada. Yo convierto eso en un pipeline que lee los archivos, los valida y guarda un histórico limpio, y encima le pongo un tablero que se actualiza solo.
 
 Me gusta hacerlo con la menor infraestructura posible: el cómputo donde ya están los datos, el almacenamiento en buckets de objetos y las consultas corriendo en el navegador. Algunos de estos sistemas no cuestan nada de hosting.
@@ -116,4 +118,4 @@ Terminé **AWS Cloud Practitioner Essentials** (AWS Training & Certification, ju
 
 ---
 
-Juan Berrio · [juandyb99@gmail.com](mailto:juandyb99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/juanberrioo)
+<img src="docs/wolf.webp" width="28" height="28" alt="" align="absmiddle"> Juan Berrio · [juandyb99@gmail.com](mailto:juandyb99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/juanberrioo)
