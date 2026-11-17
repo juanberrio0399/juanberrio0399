@@ -20,6 +20,8 @@ Estoy abierto a roles remotos de Data / Cloud Engineering.
 
 Esta es la forma de DataForge, la plataforma que manejo en el trabajo. El cliente y los datos son privados; la arquitectura no.
 
+<p align="center"><img src="docs/flow.es.svg" alt="Vista animada del flujo" width="100%"></p>
+
 ```mermaid
 flowchart LR
   XL["Archivos Excel del negocio<br/>miles, se actualizan a diario"] --> ETL["ETL en Python<br/>readers, transforms, writers"]
