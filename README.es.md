@@ -1,8 +1,8 @@
-<p align="center"><img src="docs/banner.es.svg" alt="Juan Berrio — Cloud &amp; Data Engineer" width="100%"></p>
+<p align="center"><img src="docs/banner.es.svg" alt="Juan Berrio — Data &amp; Analytics Engineer" width="100%"></p>
 <p align="center"><a href="README.md">English</a> · <b>Español</b></p>
-<p><b>Qué hago:</b> soy ingeniero de datos en Bogotá, con más de 6 años en ETL, warehouses analíticos y BI. Los pipelines que tengo en producción manejan más de 36M de registros que salen de más de 13K archivos Excel.</p>
+<p><b>Qué hago:</b> soy Data &amp; Analytics Engineer en Bogotá, con más de 3 años en datos (ETL, warehouses analíticos y BI) sobre una base de 6 años de experiencia profesional. Los pipelines que tengo en producción manejan más de 36M de registros que salen de más de 13K archivos Excel.</p>
 <p><b>Cómo trabajo:</b> tomo un proceso que la gente hace a mano en Excel, lo vuelvo un pipeline en Python que escribe Parquet y sirvo el resultado desde la nube por casi $0.</p>
-<p><a href="https://juanberrio0399.github.io">Portafolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remoto (GMT-5)</p>
+<p><a href="https://juanberrio0399.github.io">Portafolio</a> · <a href="https://juanberrio0399.github.io/assets/cv/CV_Juan_Berrio_ES.pdf">CV (PDF)</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remoto (GMT-5)</p>
 
 ---
 
@@ -16,7 +16,7 @@ Me gusta hacerlo con la menor infraestructura posible: el cómputo donde ya est�
 
 También trabajo con LLMs todos los días, tanto para construir herramientas (uno de mis repos públicos es un asistente RAG) como para automatizar mi propio trabajo. Ahora estoy estudiando AWS e Ingeniería de Sistemas, con la mira puesta en arquitectura de soluciones cloud.
 
-Estoy abierto a roles remotos de Data / Cloud Engineering.
+Estoy abierto a roles remotos de Data & Analytics Engineering.
 
 ## Cómo funciona un proyecto típico mío
 
@@ -79,9 +79,9 @@ Casi todo mi trabajo es privado porque corre sobre datos de una empresa. Los wri
 
 `Docker` · `GitHub Actions` · `Trivy` · `SLSA`
 
-### Hearthwood: un juego de Roblox
+### CAOS CITY: un juego de Roblox
 
-*Proyecto personal, en desarrollo.* Un juego de supervivencia que estoy construyendo desde cero y por fases, con diseño cliente-servidor: 48 servicios en el servidor y 19 controladores en el cliente. Es donde practico diseño de sistemas por fuera de los datos.
+*Proyecto personal, en desarrollo.* Un juego de supervivencia que estoy construyendo desde cero y por fases, con diseño cliente-servidor: 48 servicios en el servidor y 19 controladores en el cliente. Es donde practico diseño de sistemas por fuera de los datos. Empezó como un prototipo llamado Hearthwood.
 
 `Luau` · `Roblox` · `Rojo`
 
