@@ -1,8 +1,8 @@
-<p align="center"><img src="docs/banner.svg" alt="Juan Berrio — Cloud &amp; Data Engineer" width="100%"></p>
+<p align="center"><img src="docs/banner.svg" alt="Juan Berrio — Data &amp; Analytics Engineer" width="100%"></p>
 <p align="center"><b>English</b> · <a href="README.es.md">Español</a></p>
-<p><b>What I do:</b> I'm a data engineer in Bogotá with 6+ years in ETL, analytical warehouses and BI. My pipelines in production handle 36M+ records from 13K+ Excel files.</p>
+<p><b>What I do:</b> I'm a Data &amp; Analytics Engineer in Bogotá with 3+ years in data (ETL, analytical warehouses and BI) on a 6-year professional foundation. My pipelines in production handle 36M+ records from 13K+ Excel files.</p>
 <p><b>How I work:</b> I take a process people run by hand in Excel, turn it into a Python pipeline that writes Parquet, and serve the result from the cloud for close to $0.</p>
-<p><a href="https://juanberrio0399.github.io">Portfolio</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remote (GMT-5)</p>
+<p><a href="https://juanberrio0399.github.io">Portfolio</a> · <a href="https://juanberrio0399.github.io/assets/cv/CV_Juan_Berrio_EN.pdf">CV (PDF)</a> · <a href="https://www.linkedin.com/in/juanberrioo">LinkedIn</a> · <a href="mailto:juandyb99@gmail.com">juandyb99@gmail.com</a> · Bogotá, Colombia · remote (GMT-5)</p>
 
 ---
 
@@ -16,7 +16,7 @@ I like doing it with as little infrastructure as possible: compute where the dat
 
 I also work with LLMs day to day, both to build tools (one of my public repos is a RAG assistant) and to automate my own work. Right now I'm studying AWS and Systems Engineering, heading toward cloud solutions architecture.
 
-I'm open to remote Data / Cloud Engineering roles.
+I'm open to remote Data & Analytics Engineering roles.
 
 ## How a typical project of mine works
 
@@ -79,9 +79,9 @@ Most of my work is private because it runs on a company's data. The write-ups wi
 
 `Docker` · `GitHub Actions` · `Trivy` · `SLSA`
 
-### Hearthwood: a Roblox game
+### CAOS CITY: a Roblox game
 
-*Side project, in development.* A survival game I'm building from scratch, by phases, with a client-server design: 48 server services and 19 client controllers. It's where I practice systems design outside of data.
+*Side project, in development.* A survival game I'm building from scratch, by phases, with a client-server design: 48 server services and 19 client controllers. It's where I practice systems design outside of data. It started as a prototype called Hearthwood.
 
 `Luau` · `Roblox` · `Rojo`
 
